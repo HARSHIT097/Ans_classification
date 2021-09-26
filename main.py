@@ -90,7 +90,7 @@ def top_possibilities(prediction_probabilities):
 # title
 st.markdown("<h1 style='text-align: center; color: black;'>Animal Breed Identification</h1>", unsafe_allow_html=True)
 
-col1, col2 = st.beta_columns(2)
+col1, col2 = st.columns(2)
 col1.subheader("Species")
 selected_species = col1.selectbox(
      'Select the species you want to upload.',
@@ -139,4 +139,4 @@ st.image(image, caption='Uploaded Image.', use_column_width=True)
 st.subheader("Other possibilities:")
 st.write( ', '.join(top_pos),  )
 
-st.markdown("<h1 style='text-align: center; color: black;'> **** </h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: black;'> **Visit Again** </h1>", unsafe_allow_html=True)
