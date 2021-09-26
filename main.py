@@ -12,6 +12,11 @@ dog_breed_labels = ['Affenpinscher', 'Afghan Hound', 'African Hunting Dog', 'Air
 urllib.request.urlretrieve(
         "https://github.com/HARSHIT097/Ans_classification/blob/main/mobilnetV2-9000-images.h5?raw=true", "mobilnetV2-9000-images.h5")
 
+urllib.request.urlretrieve(
+        "https://github.com/HARSHIT097/Ans_classification/blob//main/default_image.jpg?raw=true", "default_image.jpg")
+
+urllib.request.urlretrieve(
+        "https://github.com/HARSHIT097/Ans_classification/blob//main/temp_image.jpg?raw=true", "temp_image.jpg")
 
 ### load model
 @st.cache(allow_output_mutation=True)
