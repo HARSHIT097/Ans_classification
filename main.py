@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
-import cv2
-import re
+#import cv2
+#import re
 import tensorflow as tf
 import tensorflow_hub as hub
 import numpy as np
