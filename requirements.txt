@@ -4,5 +4,5 @@ scikit-learn
 tensorflow
 tensorflow-hub
 keras
-urllib.request
+urllib3_1_26_2
 #opencv-python
