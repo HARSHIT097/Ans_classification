@@ -3,3 +3,4 @@ numpy==1.18.1
 scikit-learn
 tensorflow
 keras
+opencv
